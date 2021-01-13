@@ -1,7 +1,7 @@
 import React from 'react';
 import ContextWrapper from './context/ContextWrapper';
 import Routes from './routes'
-import 'node-sass';
+import './index.scss';
 import "bootstrap";
 
 const App = () => {
