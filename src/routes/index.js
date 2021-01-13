@@ -3,13 +3,16 @@
  */
 
 import React from 'react';
-import { Router } from 'react-router-dom';
+import {Route, BrowserRouter as Router, Switch} from 'react-router-dom';
+import Home from "../screens/Home/Home";
 
 const index = () => {
     return (
-      <div>
-
-      </div>
+        <Router>
+                <Switch>
+                    <Route exact path="/" name="home" component={Home}/>
+                </Switch>
+        </Router>
     );
 }
 
