@@ -21,3 +21,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+misch
+
+#miscellaneous
+.yarn.lock
+.package_lock
+.yarn-error

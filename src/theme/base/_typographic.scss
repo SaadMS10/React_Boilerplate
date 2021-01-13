@@ -1,0 +1,77 @@
+.primary-heading{
+  font-size: 35px;
+  font-weight: 700;
+}
+
+a{
+  transition: color .3s ease-in-out;
+  &:hover{
+    text-decoration: none;
+    color: $primary;
+  }
+}
+.fancy-scroll{
+  overflow-y: auto;
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 10px;
+  }
+  &::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+    background-color: transparent;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: transparent;
+    transition: background-color .3s;
+  }
+  &:hover{
+    &::-webkit-scrollbar-thumb {
+      background-color: rgba($primary, 0.8);
+    }
+  }
+}
+
+
+.modal-backdrop.show {
+    opacity: 0.8;
+}
+
+
+ul.bullet{
+    li{
+        position: relative;
+        padding-left: 50px ;
+        &:before{
+            content: "";
+            position: absolute;
+            top: 25px;
+            left: 30px;
+            background-color:  $primary;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+        }
+    }
+}
+
+@media only screen and (max-width: 1600px) {
+    .primary-heading{
+        font-size: 28px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+  .primary-heading{
+    font-size: 22px;
+  }
+
+}
+
+
+.gm-style-iw button[title="Close"] {
+    display: none !important;
+}

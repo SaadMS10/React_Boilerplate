@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
+$primary : #FCC00B;
+$primary-dark : #ecb50f;
+$secondary : #282828;
+$text-color: #0A0A0A;
+$black : #0A0A0A;
+$border-color-primary : #dadada;
+$listing-right-panel : #000000;
+$popup-bg : #0d0d0d;
+$header-height: 54px;
+$header-height-desktop: 44px;
+$footer-height : 65px;
+$footer-height-desktop : 50px;
+$min-content-height : calc(100vh - #{$header-height });
+$min-content-height-desktop : calc(100vh - #{$header-height-desktop });
+$min-height : 500px;
+
+$primary-font-family: 'Mulish', sans-serif;
+$secondary-font-family:  'Mulish', sans-serif;
