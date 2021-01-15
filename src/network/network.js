@@ -1,12 +1,10 @@
 import { doPost, doPatch, doGet, doPostProfilePictureUpload, doPostCommonApi, doGetCommonApi, doPut, doPostSignup, doDelete } from "./config";
 
-/* IMPORTANT! READ IT
+/*
+**IMPORTANT! READ IT
  If API contains basic token like auth API's or public APIs then dont send any token
  example:
  return doPost(`contact-us?lang=${lang}`, data)
-
- AXIOS is required.! 
- install it like that yarn/npm install/add axios
 *\
 
 
