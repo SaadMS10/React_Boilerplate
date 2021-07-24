@@ -1,0 +1,19 @@
+.header {
+  position: fixed;
+  padding: 24px;
+  background-color: #f5f5f5;
+  width: 100%;
+  height: auto;
+  float: left;
+}
+
+.header__p {
+  float: left;
+}
+
+.header__ps {
+  border-left: 6px solid green;
+  color: red;
+  float: left;
+}
+/*# sourceMappingURL=Header.css.map */

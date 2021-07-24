@@ -1,0 +1,26 @@
+.displaydiv {
+    margin-top: 100px;
+margin-left: 4px;
+    float: left;
+    img{
+        width: 269px;
+        height: 300px;
+    }
+    a{
+        visibility: hidden;
+        img{
+            width: 30px;
+            height:30px;
+            margin-top: -330px;
+            margin-left:120px;
+        }
+    }
+
+};
+.displaydiv:hover{
+    a{
+ 
+        visibility: visible;
+    }
+
+}

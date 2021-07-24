@@ -1,0 +1,49 @@
+.home-hero{
+
+    height:400px;
+    color:"black";
+    background:#f4f4f4;
+ line-height: 160px;
+}
+.hero-image{
+    width: 550px;
+    margin-top:125px;
+
+
+margin-left:55%;
+animation-name: hero-image-animation;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes hero-image-animation {
+    0%{
+        margin-top:0px;
+   
+    }
+    100%{
+        margin-top:-350px;
+    }
+
+}
+
+.hero-button{
+    width: 220px;
+    height: 40px;
+    background-color: #F53585;
+    font-size: 10;
+    color: white;
+    border: none;
+    font-weight: bolder;
+    margin-top: 10px;
+  }
+  .hero-button:hover{
+    
+    color:black;
+    background-color: white;
+    border: 1px black solid;
+  }
+  .hero-text{
+      margin-left: 100px;
+      padding-top: 250px;
+  }

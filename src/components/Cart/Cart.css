@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@300&display=swap");
+.cart {
+  color: red;
+}
+
+.cart-img {
+  width: 100px;
+}
+
+table {
+  font-family: 'Encode Sans SC', sans-serif;
+  font-size: 20px;
+  border-collapse: collapse;
+  width: 90%;
+  margin: 60px;
+}
+
+td, th {
+  border-bottom: 1px solid #dddddd;
+  text-align: left;
+  padding: 4px;
+}
+
+.cart-card {
+  padding: 30px;
+  background: #ececec;
+  margin-right: 5%;
+  float: right;
+}
+
+.cart-card p {
+  border: 1px solid #dddddd;
+  margin: 0;
+  font-family: 'Encode Sans SC', sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  border-collapse: collapse;
+}
+
+.cart_quantity {
+  border: none;
+  background-color: white;
+  padding-right: 20px;
+}
+
+.cart_quantity__add {
+  padding-left: 20px;
+  border: none;
+  background-color: white;
+}
+
+.cart-delete {
+  border: none;
+  background-color: white;
+}
+
+.cart-button {
+  width: 220px;
+  height: 40px;
+  background-color: #F53585;
+  font-size: 10;
+  color: white;
+  border: none;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+
+.cart-button:hover {
+  color: black;
+  background-color: white;
+  border: 1px black solid;
+}
+
+.shopping-button {
+  width: 200px;
+  height: 40px;
+  font-size: 15px;
+  font-family: 'Encode Sans SC', sans-serif;
+  background-color: #F53585;
+  font-weight: bold;
+  color: black;
+  background-color: white;
+  border: 1px black solid;
+  margin: 140px 0px 0px 100px;
+}
+
+.shopping-button:hover {
+  background-color: #F53585;
+  color: white;
+  border: none;
+}
+
+.carousel {
+  margin-top: 250px;
+}
+/*# sourceMappingURL=Cart.css.map */

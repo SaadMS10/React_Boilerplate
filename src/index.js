@@ -1,13 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.scss';
+// import './index.scss';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import { setupServer  } from './services/mirage/server';
+import {Provider} from "react-redux";
+import store from "./Redux/store"
+
+setupServer();
+
+
 
 ReactDOM.render(
-  <React.StrictMode>
+  <Provider store={store}>
     <App />
-  </React.StrictMode>,
+
+  </Provider>,
+    
+  
   document.getElementById('root')
 );
 

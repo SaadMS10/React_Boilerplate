@@ -1,17 +1,36 @@
-import React from 'react';
-import ContextWrapper from './Context/ContextWrapper';
+import React,{useEffect} from 'react';
+
 import Routes from './routes'
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import './index.scss';
-import Header from "./components/Header/Header";
+
+
+
+
+import {useSelector} from "react-redux";
+
+
 
 const App = () => {
+
+ 
+  var logon= localStorage.getItem("token");
+   
+
+  const isLoggedin = useSelector(state => state.auth.isAuthenticated )
+
+
   return (
-    <ContextWrapper>
-        <Header></Header>
-      <Routes/>
-    </ContextWrapper>
+   <>
+      
+        
+       <Routes/>
+    
+      
+
+  </>
+  
   );
 }
 
